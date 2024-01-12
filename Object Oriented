@@ -1,0 +1,29 @@
+class Add
+{ 
+    int a=5;
+    int b=10;
+    void display()
+    {
+        System.out.println("a+b:"+(a+b));
+    }
+}
+class Multi extends Add
+{
+    int a=5;
+    int b=10;
+    void show()
+    {
+        System.out.println("a*b:"+a*b));
+    }
+}
+class Main
+{
+   public static void main(String args[])
+   {
+        Multi obj=new Multi();
+        obj.display();
+        obj.show();
+   }
+}
+ 
+    
